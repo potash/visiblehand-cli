@@ -1,8 +1,8 @@
-VisibleHand-CLI
+visiblehand-cli
 ===============
-This is a simple command line application which uses the visiblehand-core library to connect to an email account, download messages and calculate carbon emissions data.
+This is a simple command line application which uses the [visiblehand-core](https://github.com/potash/visiblehand-core) library to connect to an email account, download receipts and calculate carbon emissions data.
 
-To use VisibleHand you will need Java and Maven installed. First clone the repositories
+To use you need Java (tested with OpenJDK 1.7) and Maven. First clone the repositories
 
     git clone https://github.com/potash/visiblehand-core.git
     git clone https://github.com/potash/visiblehand-cli.git
