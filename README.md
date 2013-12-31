@@ -9,7 +9,7 @@ To use you need Java (tested with OpenJDK 1.7) and Maven. First clone the reposi
     
 then build and install visiblehand-core
 
-    cd visiblehand-core && mvn clean install process-classes -DskipTests install
+    cd visiblehand-core && mvn clean install -DskipTests
     
 then build visiblehand-cli
 
