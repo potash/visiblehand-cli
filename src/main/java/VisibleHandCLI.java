@@ -24,7 +24,7 @@ public class VisibleHandCLI {
 		Folder inbox = VisibleHand.getInbox();
 		List<Flight> flights = new ArrayList<Flight>();
 
-		for (AirParser parser : VisibleHand.airParsers) {
+		for (AirParser parser : VisibleHand.getAirParsers()) {
 			if (parser.isActive()) {
 				for (Message message : inbox.search(parser.getSearchTerm())) {
 					logger.info(message.getSubject());
